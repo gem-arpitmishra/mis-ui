@@ -12,7 +12,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import io.cucumber.java.Before;
 import org.openqa.selenium.chrome.ChromeOptions;
 
-public class AthenaHook {
+public class Hook {
 
     @Before
     public void start() throws GemException {
